@@ -48,7 +48,7 @@ function crocodileMove() {
     button.textContent = "Click! Click! Click!!!!";
   } else if (clickCount > 2) {
     console.log(leftPar)
-    crocodile[0].style.left = (parseInt(crocodile[0].style.left, 10) + 5) + '%';
+    crocodile[0].style.left = (parseInt(crocodile[0].style.left, 10) + 10) + '%';
     };
   if (leftPar > 40) {
     container[0].classList.add('animate-slide-up');
